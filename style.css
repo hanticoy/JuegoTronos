@@ -1,0 +1,47 @@
+main {
+    margin: 0px auto;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.house {
+    height: 250px;
+}
+img {
+    cursor: pointer;
+}
+.description {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 300px;
+    width: 60%;
+}
+
+.detalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+h1 {
+    font-size: xx-large;
+}
